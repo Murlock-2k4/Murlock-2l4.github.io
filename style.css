@@ -1,6 +1,11 @@
 body{
-    background:#121212;
-    color:white;
+    background:
+        linear-gradient(120deg, #ff7a00 0%, #ff7a00 5%, transparent 5%, transparent 100%),
+        linear-gradient(160deg, transparent 0%, transparent 70%, #ff7a00 70%, #ff7a00 73%, transparent 73%),
+        linear-gradient(40deg, transparent 0%, transparent 30%, #ff7a00 30%, #ff7a00 33%, transparent 33%),
+        #111;
+
+    color: white;
     font-family:Arial, sans-serif;
 
     max-width:900px;
