@@ -16,7 +16,7 @@ body::before,
 body::after {
     content: "";
     position: fixed;
-    height: 10px;
+    height: 6px;
     width: 900px;
     background: #ff7a00;
     opacity: 0.75;
@@ -25,8 +25,8 @@ body::after {
 }
 
 body::before {
-    top: 120px;
-    left: -260px;
+    top: 40px;
+    left: -420px;
     transform: rotate(38deg);
 }
 
