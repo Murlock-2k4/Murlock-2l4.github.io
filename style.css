@@ -36,10 +36,10 @@ body::after {
     transform: rotate(-22deg);
 }
 
-.container {
-    width: min(1000px, 90%);
-    margin: 0 auto;
-    padding: 100px 0;
+.container{
+    width:min(1000px,90%);
+    margin:0 auto;
+    padding:170px 0 100px;
 }
 
 h1 {
@@ -83,4 +83,53 @@ a:hover {
     border-radius: 12px;
     padding: 24px;
     margin: 20px 0;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+/* ---------- NAVBAR ---------- */
+
+nav{
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:22px 60px;
+
+    background:rgba(15,15,15,.85);
+
+    backdrop-filter:blur(12px);
+
+    z-index:1000;
+}
+
+.logo{
+    color:#ff7a00;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.nav-links{
+    display:flex;
+    gap:35px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.25s;
+}
+
+.nav-links a:hover{
+    color:#ff7a00;
 }
